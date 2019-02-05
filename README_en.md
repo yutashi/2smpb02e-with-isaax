@@ -6,7 +6,7 @@ Built-in 24-bit ADC with low noise, it can measure atmospheric pressure with hig
 Control and output are digital methods via the I2C/SPI interface, which realizes low current consumption by automatic sleep mode.
 
 ## language
-- [English](./README.md)
+- [English](./README_en.md)
 - [Japanase](./README_ja.md)
 
 ## Description
