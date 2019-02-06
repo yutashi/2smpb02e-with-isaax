@@ -16,8 +16,11 @@ def main():
     
     while True:
         press, temp = sensor.readData()
-        print(datetime.datetime.today().strftime("[%Y/%m/%d %H:%M:%S]"),"pressure=%.1f[hPa] temperature=%.1f[℃]" %(press,temp))
-        time.sleep(1)
+        print(
+          datetime.datetime.today().strftime("[%Y/%m/%d %H:%M:%S]"),
+          "pressure=%.2f[hPa] temperature=%.1f[℃]" %(press,temp)
+        )
+        time.sleep(5)
 
 if __name__ == '__main__':
-  main()
+    main()
